@@ -23,7 +23,7 @@ var cards = [
 var cardsInPlay = [];
 
 var checkforMatch = function () {
-	if(cardsInPlay[0] === cardsInPlay[1]) {
+	if(cardsInPlay[0] === cardsInPlay[2]) {
 		alert("You found a match.");
 	} else {
 	 	alert("Sorry, try again.");
